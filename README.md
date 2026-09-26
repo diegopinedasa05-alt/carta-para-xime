@@ -27,23 +27,23 @@ Las copias originales que estaban en la raíz se mantienen intactas y `.gitignor
 - Antes de compartir el enlace definitivo, añade esta línea en el `<head>` de `index.html`, sustituyendo el ejemplo por tu URL real:
 
 ```html
-<meta property="og:url" content="https://TU-USUARIO.github.io/carta-para-xime/" />
+<meta property="og:url" content="https://TU-USUARIO.github.io/para-xime/" />
 ```
 
 También cambia `og:image` y `twitter:image` por la URL absoluta de la imagen si quieres la máxima compatibilidad con las vistas previas:
 
 ```html
-<meta property="og:image" content="https://TU-USUARIO.github.io/carta-para-xime/assets/og-cover.jpg" />
-<meta name="twitter:image" content="https://TU-USUARIO.github.io/carta-para-xime/assets/og-cover.jpg" />
+<meta property="og:image" content="https://TU-USUARIO.github.io/para-xime/assets/og-cover.jpg" />
+<meta name="twitter:image" content="https://TU-USUARIO.github.io/para-xime/assets/og-cover.jpg" />
 ```
 
 ## Publicar gratis en GitHub Pages — ruta recomendada
 
-La URL final tendrá este formato: `https://TU-USUARIO.github.io/carta-para-xime/`.
+La URL final tendrá este formato: `https://TU-USUARIO.github.io/para-xime/`.
 
 1. Crea o inicia sesión en [GitHub](https://github.com/).
 2. Pulsa el signo **+** de la esquina superior derecha y elige **New repository**.
-3. Escribe un nombre sencillo, por ejemplo `carta-para-xime`. Para una cuenta GitHub gratuita, selecciónalo como **Public**. La página es pública aunque el código esté en otro tipo de repositorio: no incluyas fotos ni texto que no quieras que sean accesibles desde el enlace.
+3. Escribe un nombre sencillo, por ejemplo `para-xime`. Para una cuenta GitHub gratuita, selecciónalo como **Public**. La página es pública aunque el código esté en otro tipo de repositorio: no incluyas fotos ni texto que no quieras que sean accesibles desde el enlace.
 4. Pulsa **Create repository**.
 5. En el repositorio nuevo, pulsa **Add file → Upload files**. Arrastra los archivos y carpetas de este proyecto: `index.html`, `assets`, `site.webmanifest`, `_headers`, `netlify.toml`, `.nojekyll`, `README.md` y `.gitignore`. No hace falta subir las fotos originales que quedaron en la raíz; las fotos ya usadas están dentro de `assets/images`.
 6. Al final de la página pulsa **Commit changes**.
@@ -63,7 +63,7 @@ Es igual de estático y entrega HTTPS automáticamente.
 
 1. Sube el proyecto a un repositorio de GitHub con los pasos 1–6 anteriores.
 2. Crea una cuenta en [Cloudflare](https://dash.cloudflare.com/), entra a **Workers & Pages** y selecciona **Create application → Pages → Connect to Git**.
-3. Autoriza GitHub, elige el repositorio `carta-para-xime` y pulsa **Begin setup**.
+3. Autoriza GitHub, elige el repositorio `para-xime` y pulsa **Begin setup**.
 4. En la configuración de build usa **Build command**: `exit 0`; y **Build output directory**: `.`. No hay framework ni compilación.
 5. Elige `main` como **Production branch** y pulsa **Save and Deploy**.
 6. Cloudflare te entregará una URL `https://NOMBRE.pages.dev`. Esa ya funciona por HTTPS y es la que puedes enviar.

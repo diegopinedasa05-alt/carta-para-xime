@@ -3,151 +3,98 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#1f1712" />
+    <meta name="theme-color" content="#211613" />
     <meta name="description" content="Hay cosas que nunca supe decirte de la manera correcta..." />
     <meta name="robots" content="noindex, nofollow" />
-
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_MX" />
-    <meta property="og:url" content="https://diegopinedasa05-alt.github.io/carta-para-xime/" />
-    <meta property="og:title" content="Te extraño a ti y a lo nuestro" />
+    <meta property="og:url" content="https://diegopinedasa05-alt.github.io/para-xime/" />
+    <meta property="og:title" content="Para Xime" />
     <meta property="og:description" content="Hay cosas que nunca supe decirte de la manera correcta..." />
-    <meta property="og:image" content="https://diegopinedasa05-alt.github.io/carta-para-xime/assets/og-cover.jpg" />
-    <meta property="og:image:secure_url" content="https://diegopinedasa05-alt.github.io/carta-para-xime/assets/og-cover.jpg" />
+    <meta property="og:image" content="https://diegopinedasa05-alt.github.io/para-xime/assets/og-cover.jpg" />
+    <meta property="og:image:secure_url" content="https://diegopinedasa05-alt.github.io/para-xime/assets/og-cover.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Te extraño a ti y a lo nuestro" />
+    <meta property="og:image:alt" content="Para Xime" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Te extraño a ti y a lo nuestro" />
+    <meta name="twitter:title" content="Para Xime" />
     <meta name="twitter:description" content="Hay cosas que nunca supe decirte de la manera correcta..." />
-    <meta name="twitter:image" content="https://diegopinedasa05-alt.github.io/carta-para-xime/assets/og-cover.jpg" />
-    <meta name="twitter:image:alt" content="Te extraño a ti y a lo nuestro" />
-
+    <meta name="twitter:image" content="https://diegopinedasa05-alt.github.io/para-xime/assets/og-cover.jpg" />
+    <meta name="twitter:image:alt" content="Para Xime" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
     <link rel="manifest" href="./site.webmanifest" />
     <link rel="stylesheet" href="./assets/styles.css" />
-    <title>Te extraño a ti y a lo nuestro</title>
+    <title>Para Xime</title>
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
-    <div class="petal-field" aria-hidden="true"></div>
-
-    <section class="opening" id="opening" aria-labelledby="opening-title">
-      <div class="opening__glow opening__glow--one" aria-hidden="true"></div>
-      <div class="opening__glow opening__glow--two" aria-hidden="true"></div>
-      <div class="opening__content">
-        <p class="eyebrow">para Xime</p>
-        <div class="flower flower--sunflower flower--opening" aria-hidden="true"></div>
-        <h1 id="opening-title">Hay cosas que nunca supe decirte de la manera correcta.</h1>
-        <p class="opening__hint">Esta carta guarda un poquito de todo lo que aún siento.</p>
-        <button class="open-button" id="open-experience" type="button">
-          <span>ABRIR</span>
-          <span class="open-button__arrow" aria-hidden="true">↓</span>
-        </button>
-        <p class="opening__note">Activa el sonido de tu teléfono para escuchar la canción.</p>
+    <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+      <div class="welcome__sun" aria-hidden="true"></div>
+      <div class="welcome__content">
+        <p class="kicker">Una carta para ti</p>
+        <p class="welcome__name">Xime</p>
+        <h1 id="welcome-title">Hay cosas que nunca supe decirte de la manera correcta.</h1>
+        <p class="welcome__intro">No es una respuesta que tengas que dar ahora. Es solo todo lo que necesitaba decirte.</p>
+        <button class="primary-button" id="open-letter" type="button"><span>ABRIR LA CARTA</span><span aria-hidden="true">↓</span></button>
+        <p class="welcome__note">Activa el sonido de tu teléfono si quieres escuchar la canción.</p>
       </div>
     </section>
 
     <main id="experience" aria-hidden="true">
-      <header class="site-header">
-        <a class="site-header__name" href="#inicio" aria-label="Ir al inicio de la carta">X</a>
-        <button class="music-button" id="music-button" type="button" aria-label="Pausar música" hidden>
-          <span class="music-button__icon" aria-hidden="true">♫</span>
-          <span id="music-label">Música</span>
-        </button>
+      <header class="topbar">
+        <p>Para Xime</p>
+        <button class="sound-button" id="music-button" type="button" hidden aria-pressed="false" aria-label="Reproducir música"><span aria-hidden="true">♫</span><span id="music-label">Música</span></button>
       </header>
 
-      <section class="hero" id="inicio" aria-labelledby="hero-title">
-        <div class="hero__inner">
-          <p class="eyebrow reveal">una carta sin prisa</p>
-          <h2 class="hero__title reveal" id="hero-title">Te extraño a ti<br />y a lo nuestro.</h2>
-          <p class="hero__lead reveal">No solo los días bonitos: extraño la forma en que el mundo se sentía cuando estabas cerca.</p>
-          <div class="hero__flowers" aria-hidden="true">
-            <div class="flower flower--gerbera flower--small"></div>
-            <div class="flower flower--sunflower flower--medium"></div>
-          </div>
-        </div>
-        <a class="scroll-cue" href="#carta"><span>desliza</span><i aria-hidden="true"></i></a>
+      <section class="letter-hero" aria-labelledby="letter-heading">
+        <p class="kicker">Con el corazón en la mano</p>
+        <h1 id="letter-heading">Te extraño a ti<br /><em>y a lo nuestro.</em></h1>
+        <p>Lee esto sin prisa. Cada palabra está aquí porque significa algo para mí.</p>
+        <span class="hero-flower" aria-hidden="true">✦</span>
       </section>
 
-      <section class="letter section" id="carta" aria-labelledby="letter-title">
-        <div class="section__label reveal"><span></span> lo que no dije</div>
-        <article class="letter-card reveal">
-          <p class="letter-card__date">Una noche cualquiera, pensando en ti</p>
-          <h2 id="letter-title">Xime,</h2>
-          <p>Hay recuerdos que llegan sin avisar: una canción, una calle, una hora en la que todo se queda un poco más quieto. Y ahí estás tú.</p>
-          <p>Quería decirte que te extraño. Extraño nuestras conversaciones largas, las risas que parecían no acabarse y esa calma rara de saber que, por un momento, todo estaba bien.</p>
-          <p>No escribo esto para pedirle nada al tiempo. Solo para dejarte una verdad: lo que vivimos fue importante para mí y sigue teniendo un lugar bonito en mi corazón.</p>
-          <p>Ojalá la vida te esté cuidando como mereces. Y ojalá, cuando pienses en nosotros, también encuentres algo que te haga sonreír.</p>
-          <p class="letter-card__signature">Con cariño,<br /><span>alguien que aún te recuerda bonito</span></p>
-          <div class="letter-card__flower flower flower--gerbera" aria-hidden="true"></div>
+      <section class="letter-section" aria-label="Carta para Xime">
+        <article class="letter-paper">
+          <div class="letter-paper__topline"><span></span><p>Para ti</p><span></span></div>
+          <div class="letter-copy" id="letter-copy" aria-live="polite"><p class="letter-copy__loading">Abriendo la carta...</p></div>
+          <p class="letter-signature">Con todo lo que nunca supe decirte.</p>
         </article>
       </section>
 
-      <section class="memories section" id="recuerdos" aria-labelledby="memories-title">
-        <div class="section__label reveal"><span></span> instantes</div>
-        <div class="memories__heading reveal">
-          <h2 id="memories-title">Unos cuantos<br /><em>recuerdos nuestros.</em></h2>
-          <p>Pequeños instantes que, de alguna forma, todavía saben a casa.</p>
+      <section class="memories" aria-labelledby="memories-title">
+        <div class="section-heading">
+          <p class="kicker">Nuestros recuerdos</p>
+          <h2 id="memories-title">Cada foto guarda<br /><em>algo de nosotros.</em></h2>
+          <p>Toca una foto para verla con calma.</p>
         </div>
-
-        <div class="photo-grid" aria-label="Galería de recuerdos">
-          <figure class="photo-card photo-card--tall reveal">
-            <img src="./assets/images/memory-01.jpg" alt="Un abrazo compartido" loading="eager" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--offset reveal">
-            <img src="./assets/images/memory-02.jpg" alt="Un recuerdo juntos" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--wide reveal">
-            <img src="./assets/images/memory-03.jpg" alt="Un momento especial" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card reveal">
-            <img src="./assets/images/memory-04.jpg" alt="Una fotografía de nosotros" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--tall reveal">
-            <img src="./assets/images/memory-05.jpg" alt="Un día compartido" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--offset reveal">
-            <img src="./assets/images/memory-06.jpg" alt="Otro momento juntos" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card reveal">
-            <img src="./assets/images/memory-07.jpg" alt="Una memoria para guardar" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--wide reveal">
-            <img src="./assets/images/memory-08.jpg" alt="Un instante de alegría" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--tall reveal">
-            <img src="./assets/images/memory-09.jpg" alt="Un recuerdo importante" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--offset reveal">
-            <img src="./assets/images/memory-10.jpg" alt="Una imagen de un día juntos" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card reveal">
-            <img src="./assets/images/memory-11.jpg" alt="Un abrazo en una noche especial" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--wide reveal">
-            <img src="./assets/images/memory-12.jpg" alt="Un momento feliz compartido" loading="lazy" decoding="async" />
-          </figure>
-          <figure class="photo-card photo-card--tall reveal">
-            <img src="./assets/images/memory-13.jpg" alt="Una visita juntos al acuario" loading="lazy" decoding="async" />
-          </figure>
+        <div class="memory-grid" aria-label="Galería de recuerdos">
+          <button class="memory-card" type="button" data-src="./assets/images/memory-01.jpg" data-caption="En tus abrazos siempre encontré un lugar al que quería volver."><img src="./assets/images/memory-01.jpg" alt="Un abrazo compartido" loading="eager" decoding="async" /><span>01</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-02.jpg" data-caption="Hay instantes que, aunque pasen los años, siguen sintiéndose cerca."><img src="./assets/images/memory-02.jpg" alt="Un recuerdo juntos" loading="lazy" decoding="async" /><span>02</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-03.jpg" data-caption="Todo parecía más bonito cuando podía compartirlo contigo."><img src="./assets/images/memory-03.jpg" alt="Un momento especial" loading="lazy" decoding="async" /><span>03</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-04.jpg" data-caption="Nunca imaginé cuánto podía extrañar las cosas que parecían normales."><img src="./assets/images/memory-04.jpg" alt="Una fotografía de nosotros" loading="lazy" decoding="async" /><span>04</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-05.jpg" data-caption="Tu sonrisa siempre tuvo una forma muy tuya de hacerme sentir en casa."><img src="./assets/images/memory-05.jpg" alt="Un día compartido" loading="lazy" decoding="async" /><span>05</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-06.jpg" data-caption="No fue perfecto, pero fue nuestro; y para mí eso siempre va a importar."><img src="./assets/images/memory-06.jpg" alt="Otro momento juntos" loading="lazy" decoding="async" /><span>06</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-07.jpg" data-caption="Lo que fuimos dejó una huella demasiado bonita para fingir que no existió."><img src="./assets/images/memory-07.jpg" alt="Una memoria para guardar" loading="lazy" decoding="async" /><span>07</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-08.jpg" data-caption="Contigo aprendí que las risas más simples pueden quedarse para siempre."><img src="./assets/images/memory-08.jpg" alt="Un instante de alegría" loading="lazy" decoding="async" /><span>08</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-09.jpg" data-caption="Cada foto me recuerda que hubo un nosotros que fue muy real para mí."><img src="./assets/images/memory-09.jpg" alt="Un recuerdo importante" loading="lazy" decoding="async" /><span>09</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-10.jpg" data-caption="Todavía guardo con cariño todo lo que me hizo coincidir contigo."><img src="./assets/images/memory-10.jpg" alt="Una imagen de un día juntos" loading="lazy" decoding="async" /><span>10</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-11.jpg" data-caption="Hay lugares a los que vuelvo con la memoria, solo porque tú estabas ahí."><img src="./assets/images/memory-11.jpg" alt="Un abrazo en una noche especial" loading="lazy" decoding="async" /><span>11</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-12.jpg" data-caption="Si pudiera quedarme con algo, sería con la forma en que nos reíamos juntos."><img src="./assets/images/memory-12.jpg" alt="Un momento feliz compartido" loading="lazy" decoding="async" /><span>12</span></button>
+          <button class="memory-card" type="button" data-src="./assets/images/memory-13.jpg" data-caption="Este recuerdo sigue siendo una prueba de que lo nuestro también tuvo mucha luz."><img src="./assets/images/memory-13.jpg" alt="Una visita juntos al acuario" loading="lazy" decoding="async" /><span>13</span></button>
         </div>
       </section>
 
-      <section class="closing" aria-labelledby="closing-title">
-        <div class="closing__flowers" aria-hidden="true">
-          <div class="flower flower--sunflower flower--large"></div>
-          <div class="flower flower--gerbera flower--medium"></div>
-        </div>
-        <div class="closing__content reveal">
-          <p class="eyebrow">para siempre, en algún lugar</p>
-          <h2 id="closing-title">Gracias por<br /><em>haber existido</em><br />en mi historia.</h2>
-          <p>Que la vida te encuentre rodeada de cosas bonitas.</p>
-          <span class="closing__mark" aria-hidden="true">✦</span>
-        </div>
-      </section>
+      <footer class="closing"><p class="kicker">Sin presión, sin prisa</p><h2>Si un día quieres hablar,<br /><em>aquí voy a estar.</em></h2><p>Gracias por leerme.</p><span aria-hidden="true">✦</span></footer>
     </main>
+
+    <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-caption">
+      <div class="photo-dialog__content">
+        <button class="dialog-close" type="button" id="dialog-close" aria-label="Cerrar fotografía">×</button>
+        <button class="dialog-arrow dialog-arrow--prev" type="button" id="photo-prev" aria-label="Fotografía anterior">←</button>
+        <figure><img id="dialog-image" src="" alt="" /><figcaption id="photo-caption"></figcaption></figure>
+        <button class="dialog-arrow dialog-arrow--next" type="button" id="photo-next" aria-label="Fotografía siguiente">→</button>
+      </div>
+    </dialog>
 
     <audio id="background-audio" loop preload="metadata"></audio>
     <script src="./assets/site-config.js"></script>
