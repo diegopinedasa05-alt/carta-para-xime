@@ -1,0 +1,7 @@
+# Conserva las fotografías originales del teléfono fuera del repositorio.
+# Las versiones que utiliza el sitio viven en assets/images/.
+/*.JPG
+/*.jpg
+/*.jpeg
+/*.HEIC
+/*.heic
